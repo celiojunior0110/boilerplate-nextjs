@@ -14,8 +14,3 @@ type Story = StoryObj<typeof Main>
 export const Basic: Story = {
   render: (args) => <Main {...args} />
 }
-
-Basic.args = {
-  title: 'abc',
-  description: 'Oiie'
-}
